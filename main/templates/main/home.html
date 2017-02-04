@@ -1,0 +1,86 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Skilllab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>The lab of the cutting edge!</h1>
+        <p>World is Awesome.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Machine learning</h2>
+          <p>science of getting computers to act without being explicitly programmed.</p>
+          <p><a class="btn btn-default" href="#" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Computer vision</h2>
+          <p>interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do. </p>
+          <p><a class="btn btn-default" href="#" role="button">Go &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>A.I</h2>
+          <p> intelligence exhibited by machines. In computer science, an ideal "intelligent" machine is a flexible rational agent that perceives its environment and takes actions that maximize its chance of success at some goal.</p>
+          <p><a class="btn btn-default" href="#" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Embedded system</h2>
+          <p>computer system with a dedicated function within a larger mechanical or electrical system, often with real-time computing constraints.</p>
+          <p><a class="btn btn-default" href="#" role="button">Go &raquo;</a></p>
+        </div>
+         <div class="col-md-4">
+          <h2>More</h2>
+          <p>Still there is more cool things.</p>
+          <p><a class="btn btn-default" href="#" role="button">Go &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2017 Skillful, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% include "main/includes/htmlsnippet.html" %}
+{% endblock %}

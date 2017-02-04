@@ -1,0 +1,4 @@
+unity-panel-service stop/waiting
+unity7 stop/waiting
+unity-panel-service start/running, process 11338
+unity7 start/running, process 11355
