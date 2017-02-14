@@ -1,5 +1,5 @@
 {% extends "main/header.html" %}
-
+{% load staticfiles %}
 {% block content %}
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -29,8 +29,8 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>The lab of the cutting edge!</h1>
-        <p>World is Awesome.</p>
+        <h1>Skilllab</h1>
+        <p>The lab of the cutting edge.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -78,7 +78,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
